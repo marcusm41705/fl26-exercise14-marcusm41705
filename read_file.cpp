@@ -2,7 +2,8 @@
 #include <QFile>
 #include <QDataStream>
 #include <QDebug>
-
+#include <QList>
+#include <QString>
 #include <cstdlib>
 
 #include "file_header.h"
@@ -33,10 +34,12 @@ int main(int argc, char *argv[])
   in.setVersion(QDataStream::Qt_5_0);
 
   // Read the data
-  QString msg;
-  in >> msg;
-
-  qDebug() << "Read data from a file: " << msg;
+  QList<QString> msgs;
+  in >> msgs;
+  //Displaying each QString inside the list
+  for(const QString &msg:msgs){
+    qDebug() << "Read data from a file:" << msg;
+  }
   
   return EXIT_SUCCESS;
 }

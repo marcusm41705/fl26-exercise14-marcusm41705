@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Qdatastream",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "read_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-read_file-Debug-0bf8ad82d665ece09fc9.json",
+					"name" : "read_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "read_file_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-read_file_autogen-Debug-724249710fb9aace164a.json",
+					"name" : "read_file_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "read_file_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-read_file_autogen_timestamp_deps-Debug-a0f2959dc749172eff87.json",
+					"name" : "read_file_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "write_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-write_file-Debug-5b86cdee8a46a9d2d418.json",
+					"name" : "write_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "write_file_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-write_file_autogen-Debug-15de7814466a4e283788.json",
+					"name" : "write_file_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "write_file_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-write_file_autogen_timestamp_deps-Debug-9d130817c3faa01862ed.json",
+					"name" : "write_file_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/build",
+		"source" : "/mnt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

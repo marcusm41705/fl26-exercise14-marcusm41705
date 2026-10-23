@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -I/mnt/build -I/mnt -I/mnt/build/write_file_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/write_file.dir/write_file_autogen/mocs_compilation.cpp.o -c /mnt/build/write_file_autogen/mocs_compilation.cpp",
+  "file": "/mnt/build/write_file_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/write_file.dir/write_file_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -I/mnt/build -I/mnt -I/mnt/build/write_file_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/write_file.dir/write_file.cpp.o -c /mnt/write_file.cpp",
+  "file": "/mnt/write_file.cpp",
+  "output": "CMakeFiles/write_file.dir/write_file.cpp.o"
+},
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -I/mnt/build -I/mnt -I/mnt/build/read_file_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/read_file.dir/read_file_autogen/mocs_compilation.cpp.o -c /mnt/build/read_file_autogen/mocs_compilation.cpp",
+  "file": "/mnt/build/read_file_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/read_file.dir/read_file_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -I/mnt/build -I/mnt -I/mnt/build/read_file_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/read_file.dir/read_file.cpp.o -c /mnt/read_file.cpp",
+  "file": "/mnt/read_file.cpp",
+  "output": "CMakeFiles/read_file.dir/read_file.cpp.o"
+}
+]
